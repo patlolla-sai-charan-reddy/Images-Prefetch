@@ -4,7 +4,7 @@ class ImageWrapper extends React.Component {
   render() {
     console.log("pp", this.props);
     return (
-      <div style={{ visibility: "hidden" }}>
+      <div style={{ display: "none" }}>
         {this.props.prop.map((el, i) => {
           return (
             <div key={i}>
